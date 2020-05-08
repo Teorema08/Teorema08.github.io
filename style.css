@@ -7,23 +7,6 @@ body {
 		background-attachment: fixed;
 		 }  
 		 
-		#header { 
-		background-color: #1bcce0;  
-		margin: 5px; 
-		height: 250px; 
-		}
-		
-		#header-name { 
-		background-color: #1bcce0;  
-				}
-		
-		#footer { 
-		background-color: #1bcce0;   
-		margin: 5px; 
-		height: 125px; 
-		}
-		
-		
 		.my-container { 
 			
 			width: 60%;
@@ -57,6 +40,24 @@ body {
 		background: #034b5a;
 		}
 		
+				
+		#header { 
+		background-color: #1bcce0;  <!-- https://colorscheme.ru/#3i41Tw0w0w0w0  -->  
+		margin: 5px; 
+		height: 250px; 
+		}
+		
+		#header-name { 
+		background-color: #1bcce0;  <!-- https://colorscheme.ru/#3i41Tw0w0w0w0  -->  
+				}
+		
+		#footer { 
+		background-color: #1bcce0;  <!-- https://colorscheme.ru/#3i41Tw0w0w0w0  -->  
+		margin: 5px; 
+		height: 125px; 
+		}
+		
+	
 		.head_text {
 		font-family: Century Schoolbook;
 		font-size: 30pt; 
@@ -102,52 +103,54 @@ body {
 		vertical-align: middle;
 		}
 		
-		.slide { 
-		margin-top: 10%;
-		color: #ffffff;
-		padding: 20px; 
-		text-align: center;
-
-		}
-
-		.gender { 
-		margin-left: 40%;
-		}
-
-		p.intro { 
-		font-style: italic;
-		}
-
-		a { 
-		color: #1bcce0; 
-		} 
-
-		a:hover { 
-		color: white;
-		font-style: bold; 
-		}
-
-		table { 
-		width: 90%;
-		}
-		table, tr, td { 
-		border: 2px solid #1bcce0;
-		margin: 10px;
-		padding: 5px;
-
-		}
-		caption { 
-		color: white; 
-		font-style: italic;
-		caption-side: top; 
-		text-align: center;
-		}
-
 		p {
 		font-family: Century Schoolbook;
 		color: #ffffff; 
 		font-size: 12pt; 
+
 		}
+
+p.intro { 
+font-style: italic;
+}
+
+a { 
+color: #1bcce0; 
+} 
+
+a:hover { 
+color: white;
+font-style: bold; 
+}
+
+table { 
+width: 90%;
+}
+table, tr, td { 
+border: 2px solid #1bcce0;
+margin: 10px;
+padding: 5px;
+
+}
+caption { 
+color: white; 
+font-style: italic;
+caption-side: top; 
+text-align: center;
+}
+
+
+.slide { 
+margin-top: 10%;
+color: #ffffff;
+padding: 20px; 
+text-align: center;
+
+}
+
+.gender { 
+margin-left: 40%;
+}
 
 		@media only screen and (max-width: 767px) {   
 		body {   
