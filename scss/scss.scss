@@ -1,0 +1,38 @@
+$size: 14pt; 
+$color: #1bcce0;
+
+%header { 
+font-family: Times New Roman;
+}
+
+
+ul { 
+font-size: $size; 
+color: $color;
+}
+
+ol {
+font-size: $size; 
+color: $color;
+	}
+
+table { 
+
+p { 
+color: $color;
+
+}
+
+}
+
+
+
+h1 { 
+@extend %header; 
+font-style: bold; 
+}
+
+h2 { 
+@extend %header; 
+font-style: italic;
+}
