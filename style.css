@@ -31,8 +31,10 @@ body {
 		}
 		
 		.image { 
-		padding: 5px;
-		margin: 5px; 
+		 display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
 		}
 		
 		.my-col-real { 
@@ -61,16 +63,15 @@ body {
 		.head_text {
 		font-family: Century Schoolbook;
 		font-size: 30pt; 
-		position: absolute;
+		position: relative;
 		top: 30%;
 		left: 30%;
 		
 		}
 		
 		.logo_name { 
-		 position: absolute;
-		top: 55%;
-		left: 45%;
+		 position: relative;
+		top: 50%;
 		}
 		
 		.right { 
@@ -86,6 +87,14 @@ body {
 		
 		}
 		
+		.text-image { 
+		color: #ffffff;
+		padding: 20px; 
+		position: relative;
+		left: 10%;
+		
+		}
+
 		.social_vk { 
 			position: absolute;
 			top: 30px;
@@ -169,14 +178,28 @@ margin-left: 40%;
 			visibility: hidden;
 		}
 		
-		.logo { 
-			visibility: hidden;
+		
+		.head_text {
+		font-family: Century Schoolbook;
+		font-size: 30pt; 
+		position: relative;
+		top: 20%;
+		left: 15%;
+		
 		}
 		
 		.logo_name { 
-		 position: absolute;
-		top: 85%;
-		left: 30%;
+		 position: relative;
+		top: 25%;
+		left: 35%;
+		}
+		
+		.text-image { 
+		color: #ffffff;
+		padding: 20px; 
+		position: relative;
+		left: 1%;
+		
 		}
 		
 		}
